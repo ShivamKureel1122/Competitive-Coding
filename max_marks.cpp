@@ -1,17 +1,10 @@
 //Day 3: Problem Statement - Passing Marks
-//Topic : Sorting
+//Topic: Sorting
 //-------------------------------Solution-------------------------------
-/* Variables :
-   T = test cases 
-   N = number of students in class
-   X = number of students passed 
-*/
 #include <iostream>
 using namespace std;
 
-//marks function - finds maximum value of passing marks
-//taking arguments as (number of students, number of students passed)
-void marks(int size, int index){
+void marks(int size, int index) {
     int stu_marks[size];
 	int i, j, temp;
 	
@@ -29,7 +22,6 @@ void marks(int size, int index){
 	   }
 	
 	   cout << (stu_marks[size - index] - 1) << endl;
-	
 }
 
 int main() {
@@ -40,5 +32,4 @@ int main() {
 	    marks(N, X);  //function call
 	}
 	return 0;
-	
 }
