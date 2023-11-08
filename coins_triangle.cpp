@@ -15,9 +15,8 @@ int main() {
 	    while(N!=0) {
 	        N -= i;
 	        i++;
-	        if(N<0) {
-			   break;
-			}  
+	        if(N<0) 
+		    break;
 	    }
 	    (N<0) ? cout<<i-2<<endl : cout<<i-1<<endl;
 	}
