@@ -22,7 +22,7 @@ int main() {
             {
             	puts("No");
             	break;
-			      }     
+	    }     
         }
         
         if(a==size)
