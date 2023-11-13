@@ -20,14 +20,14 @@ int main() {
 	        if(Om[i] > 0){
 	        	OmCount++;
 	        	if(maxOm<OmCount) maxOm=OmCount;
-			   } 
+		 } 
 	        else OmCount=0;
 	    }
 	    for(int i=0; i<N; i++){
 	        if(Addy[i] > 0){
 	        	AddyCount++;
 	        	if(maxAddy<AddyCount) maxAddy=AddyCount;
-			   } 
+		 } 
 	        else AddyCount=0;
 	    }
 	    
