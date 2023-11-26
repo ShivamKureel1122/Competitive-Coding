@@ -10,9 +10,9 @@ int main() {
         cin>>n>>k;
         
         if(k!=0)
-           cout<<n%k<<endl;
+        cout<<n%k<<endl;
         else 
-		   cout<<n<<endl;
+	cout<<n<<endl;
     }
 	return 0;
 }
