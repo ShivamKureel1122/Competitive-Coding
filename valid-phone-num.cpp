@@ -12,6 +12,7 @@ int main() {
         if(bill >= 10000 && bill <= 99999){
             int firstDigit = bill/10000;
             if(firstDigit != 0)  cout<<"YES"<<endl;
+	    else cout<<"NO"<<endl;
         } 
         else cout<<"NO"<<endl;
     }
