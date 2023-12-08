@@ -11,8 +11,8 @@ public:
             reverseNum = reverseNum*10+a;
             b = b/10;
         }
-		    if(x < 0)  x = -reverseNum;
-		    else  x = reverseNum;
+	if(x < 0)  x = -reverseNum;
+	else  x = reverseNum;
         long long int left, right;
         left = -pow(2,31);
         right = (pow(2,31)-1);
