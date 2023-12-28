@@ -5,7 +5,7 @@ public:
         int length = coordinates.size();
         if(length == 2) return true;
         if((coordinates[1][0] - coordinates[0][0]) == 0) {
-            for (int i = 2; i < coordinates.size(); i++) {
+            for (int i = 2; i < length; i++) {
                 if (coordinates[i][0] != coordinates[0][0])
                     return false;
             }
