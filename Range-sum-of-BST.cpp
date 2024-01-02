@@ -6,8 +6,7 @@ public:
     void calculateSum(TreeNode* root, int low, int high) {
         if(root != nullptr) {
             calculateSum(root->left, low, high);
-            if(root->val >= low && root->val <= high) 
-                sum += root->val;
+            if(root->val >= low && root->val <= high)  sum += root->val;
             calculateSum(root->right, low, high);
         } 
     } 
